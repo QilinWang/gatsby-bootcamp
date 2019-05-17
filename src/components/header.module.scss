@@ -1,0 +1,50 @@
+/* a {// target all links
+    color:#999999;
+} */
+// note that all styles are changed
+.header {
+    padding: 1rem 0 3rem;
+    // top; left right; bottom
+}
+
+.navItem_1 {
+    color:#FA8072;
+    font-size:.9rem;//smaller 
+    margin-right: 1.3rem;// margin on the right
+    text-decoration: none;// no underline
+}
+
+.navItem_1:hover{
+    color:#ED2939;
+}
+.active_navItem_1{
+    color:#8a6219;
+}
+
+.navItem_2 {
+    color:#ED2939;
+    font-size:.9rem;//smaller 
+    margin-right:1.3rem;// margin on the right
+    text-decoration: none;// no underline
+}
+.navItem_2:hover{
+    color:#FA8072;
+}
+.active_navItem_2{
+    color:#64452f;
+}
+
+
+
+.title {
+    color:#000000;
+    font-size:3rem;
+    text-decoration: none; // no underline for links
+}
+
+.navList{
+    display: flex; // stack to left -right
+    list-style-type: none; // remove bullet point
+    margin: 0;
+}
+// rename to header.module.scss => scope become local
