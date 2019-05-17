@@ -17,12 +17,10 @@ const Header = ()=>{
 
     return(
         <header className={headerStyles.header}>
-            <h1>
-                <Link className = {headerStyles.title} to="/">
+            <Link className = {headerStyles.title} to="/">
                     {data.site.siteMetadata.title}
-                </Link>
-            </h1>
-            <h2>{data.site.siteMetadata.author}'s Blog Site</h2>
+            </Link>
+            <h2 className = {headerStyles.subtitle}>{data.site.siteMetadata.author}'s Blog Site</h2>
             <nav>
                 <ul className = {headerStyles.navList}>
                     <li>

@@ -12,6 +12,16 @@ module.exports = {
   },
 
   plugins: [`gatsby-plugin-sass`,
+  {
+    resolve:'gatsby-plugin-web-font-loader',
+    options:{
+      google: {
+        families:['Crimson Text', 'PT Sans','Yantramanav:300 400 500 600', 
+        'Signika:300 400 500 600', 'Fira Sans', 'Fira Sans Condensed','Poppins','Alegreya','Old Standard TT',
+        'Vollkorn','Trykker','Special Elite','Bitter','Raleway','Rubik Mono One','Cinzel Decorative']
+      }
+    }
+  },
   'gatsby-plugin-react-helmet',
   // above and below are two ways to write plugin
   // below you can set up

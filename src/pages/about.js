@@ -12,7 +12,7 @@ const AboutPage = ()=>{
             <Head title = "About" />
             <h1>About</h1>
             <p>This is my personal blog site. </p>
-            <p>You can welcome to <Link to="/contact">contact me</Link></p>
+            <p>You are welcome to <Link to="/contact">contact me</Link></p>
         </Layout>
     )
 }
