@@ -14,8 +14,12 @@ const IndexPage =() => {
             <Head title = "Home"/>
             <h1 className = {pageStyle.header}>Welcome</h1>
             <h2 className = {pageStyle.subheader}>I'm Qilin, a graduate student living in the beautiful Montreal. </h2>
-            <h2 className = {pageStyle.subheader}>I </h2>
-            <h3 className = {pageStyle.paragraph}>Need a developer? <Link className = {pageStyle.a} to="/contact">Contact me</Link></h3>
+            <h2 className = {pageStyle.subheader}>
+                I am an aspiring statistician. 
+                I have a cat and a parrot in my home.
+            </h2>
+            <h3 className = {pageStyle.paragraph}>Feel free to <Link className = {pageStyle.a} to="/contact">contact me</Link> any time!</h3>
+
             
 
 

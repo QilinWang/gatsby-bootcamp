@@ -16,8 +16,8 @@ module.exports = {
     resolve:'gatsby-plugin-web-font-loader',
     options:{
       google: {
-        families:['PT Sans',
-        'Signika','Poppins',
+        families:['PT Sans','Alice','Kurale','B612',
+        'Poppins',
         'Vollkorn','Cinzel Decorative']
       }
     }
