@@ -16,9 +16,9 @@ module.exports = {
     resolve:'gatsby-plugin-web-font-loader',
     options:{
       google: {
-        families:['Crimson Text', 'PT Sans','Yantramanav:300 400 500 600', 
-        'Signika:300 400 500 600', 'Fira Sans', 'Fira Sans Condensed','Poppins','Alegreya','Old Standard TT',
-        'Vollkorn','Trykker','Special Elite','Bitter','Raleway','Rubik Mono One','Cinzel Decorative']
+        families:['PT Sans',
+        'Signika','Poppins',
+        'Vollkorn','Cinzel Decorative']
       }
     }
   },

@@ -4,7 +4,6 @@
 // note that all styles are changed
 .header {
     padding: 1rem 0 3rem;
-    font-family: Signika;
     font-weight: 600;
     margin-top: 4rem;
     // top; left right; bottom
@@ -43,18 +42,21 @@
 
 
 .title {
-    color:#000000;
+    color:#131516;
     font-size:3rem;
     text-decoration: none; // no underline for links
-    font-family: Cinzel Decorative
+    font-family: Cinzel Decorative;
+    font-weight: 900;
 
 }
 .subtitle {
-    color:#000000;
+    color:#131516;
     font-size:2rem;
     text-decoration: none; // no underline for links
     margin-top: 2rem;
-    font-family: Cinzel Decorative
+    font-family: Cinzel Decorative;
+    font-weight: 700;
+
 }
 
 .navList{

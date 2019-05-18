@@ -3,6 +3,7 @@ import {Link} from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import pageStyle from '../components/page.module.scss'
 
 
 
@@ -11,9 +12,12 @@ const IndexPage =() => {
     return(
         <Layout>
             <Head title = "Home"/>
-            <h1>Hello.</h1>
-            <h2>I'm Qilin, a graduate student living in the beautiful Montreal </h2>
-            <p>Need a developer?<Link to="/contact">Contact me</Link></p>
+            <h1 className = {pageStyle.header}>Welcome</h1>
+            <h2 className = {pageStyle.subheader}>I'm Qilin, a graduate student living in the beautiful Montreal. </h2>
+            <h2 className = {pageStyle.subheader}>I </h2>
+            <h3 className = {pageStyle.paragraph}>Need a developer? <Link className = {pageStyle.a} to="/contact">Contact me</Link></h3>
+            
+
 
         </Layout>
     )

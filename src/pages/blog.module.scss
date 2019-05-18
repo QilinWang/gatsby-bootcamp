@@ -1,14 +1,21 @@
 .posts {
     list-style-type: none;// no numbered
     margin: 0;
+    font-family: Vollkorn;
+    // background-color: #f5f5dc;
+
 }
 
 .post {
     margin: 1rem 0; // 1 rem top down; 0 left right
+    font-family: Vollkorn;
+    // background-color: #f1efd4;
+    // border-block-end-color: #1F2D2D
+
 
     a {
-        background: #f4f4f4;
-        color: #566D7E;
+        // background: #f4f4f4;
+        color: #131516;
         display: block;
         padding: .5rem;
         text-decoration: none; // no underline
@@ -22,12 +29,19 @@
 
     h2{
         margin-bottom: 0;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-family: Vollkorn;
+        font-weight: 600;
+
+
     }
 
     p {
         color:#777777;
-        font-size: .7rem;
-        font-style: italic
+        font-size: .9rem;
+        font-style: italic;
+        font-family: Vollkorn;
+        font-weight: 400;
+
     }
 }

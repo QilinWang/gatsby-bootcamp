@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import {Link, graphql, useStaticQuery} from 'gatsby'
 import blogStyle from './blog.module.scss'
 import Head from '../components/head'
+import pageStyle from '../components/page.module.scss'
+
 
 
 //  goals L link to blog post
@@ -46,8 +48,7 @@ const BlogPage = () => {
     return (
         <Layout>
             <Head title="Blog" />
-            <h1>Blog</h1>
-            <p>Posts will show up later on.</p>
+            <h1 className = {pageStyle.header}>Blog</h1>
             <ol className = {blogStyle.posts}>{data.allContentfulBlogPost.edges.map((edge) => {
                 return(
                     <li className={blogStyle.post}>
